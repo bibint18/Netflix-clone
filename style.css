@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url(assets/bg.jpg);
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    background-repeat: none;
+    background-size:max(1000px,100vw);
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.59;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+    padding: 10px 0;
+}
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    color: white;
+    height:calc(100% - 88px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family:'Martel sans';
+    gap: 23px;
+    padding: 0 30px;
+    
+}
+.hero> :nth-child(1){
+    font-weight : 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight:400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.seperation{
+    height:9px;
+    background-color: rgb(60, 59, 59);
+    position: relative;
+    z-index: 20;
+}
+.first-para{
+    margin-top: 10px;
+}
+.btn{
+    padding: 3px 8px ;
+    font-weight: 600;
+    background-color:rgba(248, 243, 243, 0.087);
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn-red{
+   background-color: red; 
+   color: white;
+   padding: 8px 24px;
+   font-size: 20px;
+   border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white ;
+
+}
+.main input{
+    padding: 8px 100px 8px  14px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color:rgba(23, 23, 23,0.2);
+    border-width: 1px;
+    border-color: rgba(215, 210, 210,0.5);
+    color: white;
+}
+.first{
+     display: flex;
+     justify-content: center;
+     max-width:70vw ;
+     margin: auto;
+     color: white;
+     align-items: center;
+     height:400px ;
+     padding:5px  30px;
+     margin-top:10px ;
+     margin-bottom: 10px;
+}
+.secImg{
+    position: relative;
+    z-index: 10;
+}
+.secImg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;   
+      
+}
+.video-one{
+    top:86px;
+    left:74px;
+    width: 403px;
+}
+.video-second{
+    left: 96px;
+    width: 349px;
+    top: 49px;
+
+    
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+}
+.second{
+    padding-bottom: 100px;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.faq-box{
+    background-color: rgb(57, 55, 55);
+    display: flex;
+    padding:24px ;
+    max-width: 70vw;
+    margin: 10px auto;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    font-family:'Martel sans' ;
+}
+.faq-box:hover{
+    background-color: grey;
+    transition: all;
+}
+footer{
+    color: white;
+    margin: 2px 20vw;
+    text-align: center;
+    max-width: 60vw;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.spanner{
+    padding-left: 308px;
+    padding-top: 30px;
+}
+.footer{
+    padding: 20px 20px ;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    text-align: center;
+    
+}
+.footer-one{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    color: white;
+    text-align: left;
+}
+footer a{
+    font-size: 14px;
+    color: white;
+    gap: 10px;
+}
+.next-input{
+    padding: 8px 100px 8px  14px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color:rgba(23, 23, 23,0.2);
+    border-width: 1px;
+    border-color: rgba(215, 210, 210,0.5);
+    color: white;
+}
+.second-sub{
+    text-align: center;
+    padding:5px 5px;
+}
+.second-box{
+    text-align: center;
+}
+.spanner a{
+    color: white;
+}
